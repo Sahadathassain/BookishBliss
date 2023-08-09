@@ -1,11 +1,9 @@
-import Banner from "@/Components/Banner/Banner";
-import Books from "@/Components/Books/Books";
-import React from "react";
+import NewReleasedBook from "@/Pages/Home/NewReleasedBook";
 
 const page = () => {
   return (
     <div>
-      <Banner />
+      <NewReleasedBook />
     </div>
   );
 };
